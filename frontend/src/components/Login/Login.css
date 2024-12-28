@@ -1,0 +1,50 @@
+/* Login.css */
+.login-page {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .login-container {
+    max-width: 900px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form-section {
+    padding: 2rem;
+  }
+  
+  .logo-placeholder {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .login-info-section {
+    background: linear-gradient(135deg, #6f42c1, #6610f2);
+    color: white;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .info-content img {
+    max-width: 80%;
+    border-radius: 8px;
+  }
+  
+  .info-content p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .login-info-section {
+      display: none;
+    }
+  }
+  
